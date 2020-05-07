@@ -1,0 +1,162 @@
+.titulo{
+    margin-left: 25px;
+}
+
+
+.fondo {
+    background-color: grey;
+}
+
+.fondoImagen {
+    background-image: url(../Imagenes/Background.jpg);
+}
+
+
+body {
+    margin: 0px;
+}
+
+.navegacion{
+    display: flex;
+    padding: 16px;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ul:hover{
+    color: brown;
+}
+
+li.item:hover{
+    background-color: brown;
+    transition: ease .5s;
+}
+.item{
+    list-style: none;
+    margin-right: 50px;
+    color: black;
+    margin-left: 60px;
+    
+    
+}
+
+/*Margen a todos los titulos principales */ 
+h1 {
+    margin: 15px;
+}
+
+/*Formulario*/
+.NombreApellido{
+
+    margin-bottom: 20px;
+    margin: 15px;
+}
+
+.Email{
+
+    margin-bottom: 20px;
+    margin: 15px;
+}
+
+.problema{
+    margin: 15px;
+}
+
+.captcha {
+    margin: 15px;
+}
+textarea{
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+}
+
+.texto {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background: #bbbbbb;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transform: translateX(-50%);
+    color:#017bf5;
+    outline: none;
+    font-size: 25px;
+}
+#problema {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Home*/
+
+.tituloPrincipal {
+    color: black;
+}
+/*Moba Survivals y Rpg*/
+
+.general {
+    margin: 15px;
+}
+
+.titulo {
+    color: white;
+}
+
+/*Ark Overwatch y Dark souls 3 */
+.principal {
+    display: flex;
+    font-size: 25px;
+}
+
+.tabla {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+.Redes {
+    margin-left: 10px;
+}
+
+.margen{
+    margin: 25px;
+    display: flex;
+
+}
+
+.separador{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+.GeneralFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.pocicionFormulario {
+    margin-right: 166px;
+    margin-top: 65px;
+}
+
+.titulos {
+    color: white;
+}
